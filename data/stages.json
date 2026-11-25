@@ -1,0 +1,488 @@
+{
+  "stages": [
+    {
+      "id": "levant",
+      "title": "بلاد الشام",
+      "short": "بلاد الشام",
+      "color": "#9C4738",
+      "image": "img/levant.webp",
+      "objects": [
+        {
+          "id": "mosaic-box",
+          "name": "صندوق موزاييك",
+          "fact": "صناعة دمشقية تقليدية: خشب مطعّم بالصدف.",
+          "country": "سوريا",
+          "rect": null,
+          "icon": "img/icons/levant/mosaic-box.webp"
+        },
+        {
+          "id": "rakwe",
+          "name": "ركوة",
+          "fact": "إناء تُحضّر فيه القهوة على النار في بلاد الشام.",
+          "country": "بلاد الشام",
+          "rect": null,
+          "icon": "img/icons/levant/rakwe.webp"
+        },
+        {
+          "id": "kufiya",
+          "name": "كوفية",
+          "fact": "رمز للتراث الفلسطيني بنقشها الأبيض والأسود.",
+          "country": "فلسطين",
+          "rect": null,
+          "icon": "img/icons/levant/kufiya.webp"
+        },
+        {
+          "id": "tatreez",
+          "name": "ثوب مطرّز",
+          "fact": "التطريز الفلسطيني تختلف نقوشه من مدينة لمدينة.",
+          "country": "فلسطين",
+          "rect": null,
+          "icon": "img/icons/levant/tatreez.webp"
+        },
+        {
+          "id": "aleppo-soap",
+          "name": "صابون غار",
+          "fact": "صابون حلبي من زيت الزيتون وزيت الغار.",
+          "country": "سوريا",
+          "rect": null,
+          "icon": "img/icons/levant/aleppo-soap.webp"
+        },
+        {
+          "id": "olive-oil",
+          "name": "جرة زيت زيتون",
+          "fact": "الزيتون من أهم محاصيل بلاد الشام.",
+          "country": "بلاد الشام",
+          "rect": null,
+          "icon": "img/icons/levant/olive-oil.webp"
+        },
+        {
+          "id": "zaatar",
+          "name": "زعتر",
+          "fact": "خلطة زعتر وسماق وسمسم تُؤكل مع الخبز والزيت.",
+          "country": "بلاد الشام",
+          "rect": null,
+          "icon": "img/icons/levant/zaatar.webp"
+        },
+        {
+          "id": "kaak",
+          "name": "كعك بالسمسم",
+          "fact": "خبز حلقي بالسمسم يُباع في أسواق القدس.",
+          "country": "فلسطين",
+          "rect": null,
+          "icon": "img/icons/levant/kaak.webp"
+        },
+        {
+          "id": "derbakeh",
+          "name": "دربكة",
+          "fact": "طبلة حاضرة في الدبكة والأفراح.",
+          "country": "بلاد الشام",
+          "rect": null,
+          "icon": "img/icons/levant/derbakeh.webp"
+        },
+        {
+          "id": "oud",
+          "name": "عود",
+          "fact": "آلة وترية أساسية في الموسيقى العربية.",
+          "country": "بلاد الشام",
+          "rect": null,
+          "icon": "img/icons/levant/oud.webp"
+        },
+        {
+          "id": "mansaf",
+          "name": "طبق منسف",
+          "country": "الأردن",
+          "fact": "طبق أردني يُقدَّم في المناسبات، ويُحضَّر باللحم والأرز والجميد.",
+          "rect": null,
+          "icon": "img/icons/levant/mansaf.webp"
+        },
+        {
+          "id": "tabbouleh",
+          "name": "تبّولة",
+          "country": "لبنان",
+          "fact": "سلطة شائعة على المائدة اللبنانية، تُحضَّر بالبقدونس والطماطم والبرغل.",
+          "rect": null,
+          "icon": "img/icons/levant/tabbouleh.webp"
+        }
+      ]
+    },
+    {
+      "id": "south-asia",
+      "title": "باكستان والهند وبنجلادش وأفغانستان",
+      "short": "جنوب آسيا",
+      "color": "#9F3F77",
+      "image": "img/south-asia.webp",
+      "objects": [
+        {
+          "id": "rickshaw",
+          "name": "ريكشا",
+          "fact": "دراجة لنقل الركاب، ودكا تُلقّب بعاصمة الريكشا.",
+          "country": "بنجلادش",
+          "rect": null,
+          "icon": "img/icons/south-asia/rickshaw.webp"
+        },
+        {
+          "id": "truck-art-kettle",
+          "name": "إبريق مزخرف",
+          "fact": "فن الشاحنات الباكستاني: رسومات وألوان زاهية.",
+          "country": "باكستان",
+          "rect": null,
+          "icon": "img/icons/south-asia/truck-art-kettle.webp"
+        },
+        {
+          "id": "cricket-bat",
+          "name": "مضرب كريكيت",
+          "fact": "الكريكيت أشهر رياضة في باكستان والهند وبنجلادش.",
+          "country": "باكستان والهند وبنجلادش",
+          "rect": null,
+          "icon": "img/icons/south-asia/cricket-bat.webp"
+        },
+        {
+          "id": "kulhad",
+          "name": "كوب فخار",
+          "fact": "كوب فخار يُشرب فيه الشاي الهندي (تشاي).",
+          "country": "الهند",
+          "rect": null,
+          "icon": "img/icons/south-asia/kulhad.webp"
+        },
+        {
+          "id": "tabla",
+          "name": "طبلة",
+          "fact": "زوج طبول أساسي في الموسيقى الهندية والباكستانية.",
+          "country": "الهند وباكستان",
+          "rect": null,
+          "icon": "img/icons/south-asia/tabla.webp"
+        },
+        {
+          "id": "bangles",
+          "name": "أساور ملونة",
+          "fact": "تُلبس في الأعراس والأعياد.",
+          "country": "جنوب آسيا",
+          "rect": null,
+          "icon": "img/icons/south-asia/bangles.webp"
+        },
+        {
+          "id": "henna",
+          "name": "مخروط حناء",
+          "fact": "تُزيَّن بها الأيادي في الأعراس.",
+          "country": "جنوب آسيا",
+          "rect": null,
+          "icon": "img/icons/south-asia/henna.webp"
+        },
+        {
+          "id": "afghan-rug",
+          "name": "سجادة أفغانية",
+          "fact": "السجاد اليدوي من أشهر صناعات أفغانستان.",
+          "country": "أفغانستان",
+          "rect": null,
+          "icon": "img/icons/south-asia/afghan-rug.webp"
+        },
+        {
+          "id": "kite",
+          "name": "طائرة ورقية",
+          "fact": "لعبة الطائرات الورقية مشهورة في أفغانستان وباكستان.",
+          "country": "أفغانستان وباكستان",
+          "rect": null,
+          "icon": "img/icons/south-asia/kite.webp"
+        },
+        {
+          "id": "karakul",
+          "name": "قبعة كاراكول",
+          "fact": "قبعة من صوف خراف القراقل، مشهورة في أفغانستان.",
+          "country": "أفغانستان",
+          "rect": null,
+          "icon": "img/icons/south-asia/karakul.webp"
+        },
+        {
+          "id": "mango",
+          "name": "مانجو",
+          "fact": "المانجو الفاكهة الوطنية للهند وباكستان.",
+          "country": "الهند وباكستان",
+          "rect": null,
+          "icon": "img/icons/south-asia/mango.webp"
+        },
+        {
+          "id": "jamdani",
+          "name": "قماش جامداني",
+          "fact": "نسيج يدوي من بنجلادش، مسجّل في اليونسكو.",
+          "country": "بنجلادش",
+          "rect": null,
+          "icon": "img/icons/south-asia/jamdani.webp"
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "title": "مصر",
+      "short": "مصر",
+      "color": "#926023",
+      "image": "img/egypt.webp",
+      "objects": [
+        {
+          "id": "fanous",
+          "name": "فانوس رمضان",
+          "fact": "الفانوس من أشهر رموز رمضان في مصر.",
+          "country": "مصر",
+          "rect": null,
+          "icon": "img/icons/egypt/fanous.webp"
+        },
+        {
+          "id": "tarboush",
+          "name": "طربوش",
+          "fact": "غطاء رأس قديم ارتبط بمصر.",
+          "country": "مصر",
+          "rect": null,
+          "icon": "img/icons/egypt/tarboush.webp"
+        },
+        {
+          "id": "koshary",
+          "name": "طبق كشري",
+          "country": "مصر",
+          "fact": "طبق مصري شعبي يجمع الأرز والمكرونة والعدس ويُزيّن بالبصل المقلي.",
+          "rect": null,
+          "icon": "img/icons/egypt/koshary.webp"
+        },
+        {
+          "id": "khayamiya",
+          "name": "لوحة خيامية",
+          "fact": "حرفة مصرية تُخاط فيها قطع قماش ملوّنة فوق قماش أساس لتكوين الزخارف.",
+          "country": "مصر",
+          "rect": null,
+          "icon": "img/icons/egypt/khayamiya.webp"
+        },
+        {
+          "id": "sistrum",
+          "name": "صلاصل مصرية",
+          "fact": "آلة إيقاع من مصر القديمة تُصدر رنينًا عند هزّها.",
+          "country": "مصر",
+          "rect": null,
+          "icon": "img/icons/egypt/sistrum.webp"
+        },
+        {
+          "id": "feteer-meshaltet",
+          "name": "فطير مشلتت",
+          "fact": "فطير مصري تقليدي يتكوّن من طبقات رقيقة من العجين.",
+          "country": "مصر",
+          "rect": null,
+          "icon": "img/icons/egypt/feteer-meshaltet.webp"
+        }
+      ]
+    },
+    {
+      "id": "turkey",
+      "title": "تركيا",
+      "short": "تركيا",
+      "color": "#9B3540",
+      "image": "img/turkey.webp",
+      "objects": [
+        {
+          "id": "turkish-tea",
+          "name": "استكانة شاي",
+          "fact": "الشاي يُشرب في كاسات صغيرة بشكل التوليب في تركيا.",
+          "country": "تركيا",
+          "rect": null,
+          "icon": "img/icons/turkey/turkish-tea.webp",
+          "group": "turkey"
+        },
+        {
+          "id": "nazar",
+          "name": "عين زرقاء",
+          "fact": "خرزة زرقاء تُعلّق للزينة في تركيا.",
+          "country": "تركيا",
+          "rect": null,
+          "icon": "img/icons/turkey/nazar.webp",
+          "group": "turkey"
+        },
+        {
+          "id": "mosaic-lamp",
+          "name": "فانوس موزاييك",
+          "fact": "فوانيس زجاج ملون مشهورة في أسواق إسطنبول.",
+          "country": "تركيا",
+          "rect": null,
+          "icon": "img/icons/turkey/mosaic-lamp.webp",
+          "group": "turkey"
+        },
+        {
+          "id": "cezve",
+          "name": "جزوة",
+          "fact": "إناء نحاسي للقهوة التركية.",
+          "country": "تركيا",
+          "rect": null,
+          "icon": "img/icons/turkey/cezve.webp",
+          "group": "turkey"
+        },
+        {
+          "id": "simit",
+          "name": "سميت",
+          "country": "تركيا",
+          "fact": "خبز حلقي مغطّى بالسمسم، يُباع في شوارع إسطنبول.",
+          "group": "turkey",
+          "rect": null,
+          "icon": "img/icons/turkey/simit.webp"
+        },
+        {
+          "id": "karagoz-puppet",
+          "name": "دمية كاراغوز",
+          "country": "تركيا",
+          "fact": "دمية جلدية تُحرَّك بعصيّ لإسقاط ظلّها على شاشة في مسرح الظل التركي.",
+          "group": "turkey",
+          "rect": null,
+          "icon": "img/icons/turkey/karagoz-puppet.webp"
+        }
+      ]
+    },
+    {
+      "id": "morocco",
+      "title": "المغرب",
+      "short": "المغرب",
+      "color": "#176E68",
+      "image": "img/morocco.webp",
+      "objects": [
+        {
+          "id": "tagine",
+          "name": "طاجين",
+          "fact": "إناء فخار مخروطي للطبخ في المغرب.",
+          "country": "المغرب",
+          "rect": null,
+          "icon": "img/icons/morocco/tagine.webp"
+        },
+        {
+          "id": "babouche",
+          "name": "بلغة",
+          "fact": "حذاء جلدي تقليدي في المغرب.",
+          "country": "المغرب",
+          "rect": null,
+          "icon": "img/icons/morocco/babouche.webp"
+        },
+        {
+          "id": "moroccan-teapot",
+          "name": "براد شاي",
+          "fact": "الشاي بالنعناع رمز الضيافة في المغرب العربي.",
+          "country": "المغرب",
+          "rect": null,
+          "icon": "img/icons/morocco/moroccan-teapot.webp"
+        },
+        {
+          "id": "couscous",
+          "name": "صحن كسكس",
+          "fact": "طبق مشترك بين الجزائر والمغرب وتونس وموريتانيا.",
+          "country": "المغرب",
+          "rect": null,
+          "icon": "img/icons/morocco/couscous.webp"
+        },
+        {
+          "id": "fez-star-dish",
+          "name": "طبق فخّار فاسي",
+          "fact": "تشتهر مدينة فاس بأطباق خزفية تُزيَّن بزخارف زرقاء على أرضية بيضاء.",
+          "country": "المغرب",
+          "rect": null,
+          "icon": "img/icons/morocco/fez-star-dish.webp"
+        },
+        {
+          "id": "qraqeb",
+          "name": "قراقب كناوة",
+          "fact": "آلة إيقاع معدنية تُستعمل في موسيقى كناوة بالمغرب.",
+          "country": "المغرب",
+          "rect": null,
+          "icon": "img/icons/morocco/qraqeb.webp"
+        }
+      ]
+    },
+    {
+      "id": "saudi-yemen",
+      "title": "السعودية واليمن",
+      "short": "السعودية واليمن",
+      "color": "#9B551F",
+      "image": "img/saudi-yemen.webp",
+      "objects": [
+        {
+          "id": "dallah",
+          "name": "دلة",
+          "fact": "رمز الضيافة والكرم في السعودية.",
+          "country": "السعودية",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/dallah.webp"
+        },
+        {
+          "id": "mabkhara",
+          "name": "مبخرة",
+          "fact": "يُطيَّب بها المجلس عند استقبال الضيوف.",
+          "country": "السعودية واليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/mabkhara.webp"
+        },
+        {
+          "id": "finjan",
+          "name": "فناجيل",
+          "fact": "تُقدَّم فيها القهوة العربية.",
+          "country": "السعودية واليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/finjan.webp"
+        },
+        {
+          "id": "dates",
+          "name": "تمر",
+          "fact": "يُقدَّم مع القهوة في كل بيت سعودي.",
+          "country": "السعودية",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/dates.webp"
+        },
+        {
+          "id": "shemagh",
+          "name": "شماغ",
+          "fact": "غطاء الرأس التقليدي للرجال في السعودية.",
+          "country": "السعودية",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/shemagh.webp"
+        },
+        {
+          "id": "sadu",
+          "name": "مسند سدو",
+          "fact": "نسيج بدوي تقليدي مسجّل في اليونسكو.",
+          "country": "السعودية",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/sadu.webp"
+        },
+        {
+          "id": "jambiya",
+          "name": "جنبية",
+          "fact": "تُلبس على الخصر في اللباس اليمني التقليدي.",
+          "country": "اليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/jambiya.webp"
+        },
+        {
+          "id": "yemeni-honey",
+          "name": "عسل يمني",
+          "fact": "العسل الدوعني اليمني من أشهر أنواع العسل.",
+          "country": "اليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/yemeni-honey.webp"
+        },
+        {
+          "id": "frankincense",
+          "name": "لبان",
+          "fact": "اللبان من أقدم ما تاجرت به جزيرة العرب.",
+          "country": "السعودية واليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/frankincense.webp"
+        },
+        {
+          "id": "coffee-beans",
+          "name": "حبوب بن",
+          "fact": "اسم قهوة \"موكا\" جاء من ميناء المخا في اليمن.",
+          "country": "اليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/coffee-beans.webp"
+        },
+        {
+          "id": "qamariya",
+          "name": "قمرية",
+          "fact": "نافذة جصّ وزجاج ملون تزيّن البيوت اليمنية.",
+          "country": "اليمن",
+          "rect": null,
+          "icon": "img/icons/saudi-yemen/qamariya.webp"
+        }
+      ]
+    }
+  ]
+}

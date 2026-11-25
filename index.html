@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#22203F">
+<title>وين الغرض؟ — اليوم الثقافي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ 1. START ============ -->
+<section id="screen-start" class="screen light active" aria-label="شاشة البداية">
+  <div class="frame start">
+    <div class="tag"><span>اليوم الثقافي</span><i aria-hidden="true"></i><span>الجامعة العربية المفتوحة</span></div>
+    <div class="title-row">
+      <h1>وين الغرض؟</h1>
+      <svg aria-hidden="true" width="104" height="104" viewBox="0 0 104 104" class="title-glass">
+        <circle cx="44" cy="44" r="30" fill="#FFF8EC" stroke="#22203F" stroke-width="9"/>
+        <circle cx="44" cy="44" r="18" fill="none" stroke="#E8A317" stroke-width="5" stroke-dasharray="20 10"/>
+        <path d="M66 66 L92 92" stroke="#22203F" stroke-width="14" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <p class="subtitle">دوّر على ٦ أغراض من ثقافات مختلفة قبل ما يخلص الوقت</p>
+    <div id="stamps" class="stamps"></div>
+    <button id="btn-start" class="btn-primary" type="button">
+      <span id="btn-start-label">جاري التحميل…</span>
+      <svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#22203F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5 L8 12 L15 19"/></svg>
+    </button>
+    <div class="meta">
+      <span>مرحلة عشوائية</span><span aria-hidden="true">·</span>
+      <span>٦ أغراض</span><span aria-hidden="true">·</span>
+      <span>٦٠ ثانية</span><span aria-hidden="true">·</span>
+      <span>٣ تلميحات</span>
+    </div>
+    <div id="demo-badge" class="demo-badge" hidden>نسخة تجريبية — ملف المراحل أو صوره مو جاهزة</div>
+  </div>
+</section>
+
+<!-- ============ 2. REVEAL ============ -->
+<section id="screen-reveal" class="screen dark" aria-label="اختيار المرحلة">
+  <div class="frame reveal">
+    <p class="kicker">وجهتك هالمرة…</p>
+    <div class="big-stamp-wrap">
+      <div class="halo" aria-hidden="true"></div>
+      <div id="big-stamp" class="big-stamp">
+        <div class="big-in">
+          <span class="lbl">المرحلة</span>
+          <span id="reveal-title" class="big-title"></span>
+          <span class="bar" aria-hidden="true"></span>
+          <span id="reveal-sub" class="big-sub"></span>
+        </div>
+      </div>
+    </div>
+    <div class="pill-light">
+      <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22203F" stroke-width="2.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 L21 21"/></svg>
+      <span id="reveal-count">دوّر على ٦ أغراض</span>
+    </div>
+    <div id="reveal-dots" class="dots"></div>
+  </div>
+</section>
+
+<!-- ============ 3. GAME ============ -->
+<section id="screen-game" class="screen game" aria-label="شاشة اللعب">
+  <div id="viewport">
+    <div id="scene-bg" aria-hidden="true"></div>
+    <div id="stage-el">
+      <img id="scene-img" alt="" draggable="false">
+      <div id="marks"></div>
+    </div>
+  </div>
+
+  <div class="hud-top">
+    <div class="chip-stage"><span class="dot" aria-hidden="true"></span><span id="hud-stage"></span></div>
+    <div class="hud-center">
+      <div id="hud-progress" class="chip-progress">٠ / ٦</div>
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </div>
+    <div class="timer" id="timer">
+      <svg aria-hidden="true" width="76" height="76" viewBox="0 0 76 76">
+        <circle cx="38" cy="38" r="30" fill="none" stroke="#3D3A66" stroke-width="7"/>
+        <circle id="timer-arc" cx="38" cy="38" r="30" fill="none" stroke="#E8A317" stroke-width="7" stroke-linecap="round" stroke-dasharray="188.5" stroke-dashoffset="0"/>
+      </svg>
+      <span id="timer-num">٦٠</span>
+    </div>
+  </div>
+
+  <div class="tray">
+    <div class="tray-progress" aria-hidden="true"><div id="tray-fill"></div></div>
+    <div class="tray-row">
+      <div class="zoom">
+        <button id="zoom-in" type="button" aria-label="تكبير">
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F6EBD9" stroke-width="3" stroke-linecap="round"><path d="M12 5 V19 M5 12 H19"/></svg>
+        </button>
+        <button id="zoom-out" type="button" aria-label="تصغير">
+          <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F6EBD9" stroke-width="3" stroke-linecap="round"><path d="M5 12 H19"/></svg>
+        </button>
+      </div>
+      <div id="slots" class="slots"></div>
+      <button id="btn-hint" class="hint" type="button" aria-label="تلميح">
+        <svg aria-hidden="true" width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#22203F" stroke-width="2.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 L21 21"/><path d="M10.5 7.5 V13.5 M7.5 10.5 H13.5"/></svg>
+        <span id="hint-count" class="hint-count">٣</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. END ============ -->
+<section id="screen-end" class="screen light" aria-label="النتيجة">
+  <div class="frame end">
+    <div class="end-head">
+      <h1 id="end-title">أحسنت!</h1>
+      <div id="score-stamp" class="score-stamp">
+        <div class="score-in">
+          <span id="end-score">٦ / ٦</span>
+          <span id="end-stage"></span>
+        </div>
+      </div>
+    </div>
+    <p id="end-sub" class="end-sub"></p>
+    <div id="end-grid" class="end-grid"></div>
+    <button id="btn-again" class="btn-primary" type="button">
+      <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22203F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12 A8 8 0 1 1 16.5 5.3"/><path d="M17 2 V6 H13"/></svg>
+      <span>لاعب جديد</span>
+    </button>
+    <p class="end-note">ترجع لشاشة البداية تلقائياً بعد ٣٠ ثانية</p>
+  </div>
+</section>
+
+<div id="fx" aria-hidden="true"></div>
+<div id="rotate"><div><svg aria-hidden="true" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#F6EBD9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M3 16 A9 9 0 0 0 9 21"/></svg><p>لف الجهاز بالعرض</p></div></div>
+
+<!-- staff: long-press top-left corner for 3 seconds -->
+<div id="staff-corner" aria-hidden="true"></div>
+<div id="staff-panel" class="staff" hidden>
+  <div class="staff-box">
+    <div class="staff-head"><strong>لوحة المنظمين</strong><button id="staff-close" type="button">إغلاق</button></div>
+    <div class="staff-row">
+      <button id="staff-sound" type="button"></button>
+      <button id="staff-debug" type="button"></button>
+      <button id="staff-reload" type="button">إعادة تحميل</button>
+    </div>
+    <p id="staff-note" class="staff-note"></p>
+    <div id="staff-stages" class="staff-stages"></div>
+  </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
