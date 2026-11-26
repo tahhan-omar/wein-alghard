@@ -162,6 +162,9 @@ img, canvas { -webkit-user-drag: none; }
 .mark .check svg { width: 55%; height: 55%; }
 @keyframes markIn { 0% { transform: translate(-50%, -50%) scale(.2); opacity: 0; } 100% { transform: translate(-50%, -50%) scale(1); opacity: 1; } }
 .dim { position: absolute; background: rgba(34, 32, 63, .22); border-radius: 8px; }
+.dim.fade { opacity: 0; transition: opacity .45s ease; }
+.mark.fade { animation: markOut .45s ease forwards; }
+@keyframes markOut { from { transform: translate(-50%, -50%) scale(1); opacity: 1; } to { transform: translate(-50%, -50%) scale(1.15); opacity: 0; } }
 
 .hint-ring { position: absolute; aspect-ratio: 1; transform: translate(-50%, -50%); min-width: 56px; }
 .hint-ring::before, .hint-ring::after { content: ''; position: absolute; border-radius: 50%; }

@@ -428,6 +428,9 @@ function addMark(r) {
   Object.assign(m.style, { left: (r.x + r.w / 2) * 100 + '%', top: (r.y + r.h / 2) * 100 + '%', width: markSize(r) + '%' });
   m.innerHTML = '<span class="ring"></span><span class="check">' + CHECK_SVG + '</span>';
   $('#marks').append(dim, m);
+  // show the circle briefly, then clear it so the scene stays clean
+  setTimeout(() => { m.classList.add('fade'); dim.classList.add('fade'); }, 1100);
+  setTimeout(() => { m.remove(); dim.remove(); }, 1600);
 }
 
 /* ---------- hint ---------- */
